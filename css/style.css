@@ -1,0 +1,73 @@
+body{
+	text-align: center;
+	background: linear-gradient(to right, #2980b9, #08d9d6, #ffffff);
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #ff2e6f;
+}
+h2 {
+	font-size: 60px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #ff2e6f;
+}
+
+button {
+	margin: 15px;
+}
+
+.gameSection{
+	border: 5px solid #ffffff;
+	border-radius: 25px;
+} 
+
+.gameboard{
+	display: grid;
+	grid-gap: 20px 20px;
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	color:black;
+	font-size: 75px;
+	line-height: 150px;
+	grid-template-columns: repeat(3,150px);
+	grid-template-rows: repeat(3,150px);
+}
+
+.footer p{
+	position: fixed;
+	margin: 0px 0px;
+	right: 15px;
+	bottom: 0;
+	width: 100%;
+	color: #ff2e6f;
+	text-align: right;
+}
+
+#message {
+	font-size: 50px;
+	margin: 5px 0px 15px 0px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align:center;	
+}
+
+#reset{
+	border: 2px solid black;
+	color: black;
+	font-size: 40px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
